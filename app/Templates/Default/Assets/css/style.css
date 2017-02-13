@@ -1,0 +1,207 @@
+
+body{
+    background-color: white;
+    position: relative;
+    min-height: 1000px;
+    padding-bottom: 60px;
+}
+.header{
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    width: 10%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menu{
+/*    clear:both;*/
+    width: 100%;
+    height: 30%;
+    background-color: #182735;
+    padding: 0px 0px;
+    margin: 0px 0px;
+     text-align: center;
+    font-size: 3rem;
+    border-top: 3px solid #ebce76;
+    border-bottom: 3px solid #ebce76;
+}
+
+/*
+.menu input{
+    width: 20%;
+    height: 25%;
+    font-size: 1rem;
+}
+*/
+.nav-bar a{
+    padding: 10px 20px 10px 20px;
+}
+
+.link {
+	font-size: 3rem;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+}
+.link::after{
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #ebce76;
+}
+
+
+/**********************PAGE HISTOIRE**************************/
+.short-text{
+    text-align: center;
+    padding:20px 40px 20px 40px;
+}
+
+.short-text p{
+    font-size: 2rem;
+}
+
+.auteur-histoire{
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+
+/*****************************TABLEAU HISTOIRE**************************************/
+
+.histoire-conteneur{
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.histoire{
+    display:table;
+    table-layout: fixed;
+    width: 100%;
+    height: 200px;
+   
+    
+   
+}
+
+.histoire-text{
+    clear: both;
+     /* vertical-align: middle;*/
+}
+
+.histoire-part{
+    display:table-cell;
+    width: 50%;
+     direction: ltr;
+/*    padding-bottom: 0px;*/
+    top: 0px;
+    vertical-align: middle;
+      
+}
+
+.histoire-part p{
+     padding-left: 40px;
+     padding-right: 40px;
+    text-align: justify;
+    font-size: 1.9rem;
+    top :0px;
+    
+    
+}
+
+
+.histoire:nth-child(even) {
+    direction: rtl;
+}
+
+.histoire-title{
+   display: none;
+}
+
+
+.histoires-img{
+   width: 100%;
+}
+
+
+
+/******************COMMENTAIRES***********************************/
+
+.commentaires-ajoutés{
+    font-size: 2rem;
+    padding: 40px;
+}
+
+.auteur{
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.date{
+    margin-right: 20px;
+}
+
+.btn-like {
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-decoration: none;
+}
+
+.ajout-commentaire{
+    text-align: center;
+}
+
+/***********************************Responsive************************/
+
+@media (max-width: 993px) {
+    
+    .histoire-part{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .histoire-part p{
+        padding-left: 40px;
+     padding-right: 40px;
+    text-align: justify;
+    font-size: 3rem;
+    top :0px;
+    }
+    
+    .nav-bar a {
+        display: block;
+        width: 100%;
+        font-size: 3.5rem;
+        padding: 2px;
+    }
+    
+        #logo {
+        width: 30%;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+}
+
+    
+    .btn-sup{
+        display: block;
+        float:left;
+    }
+    
+    

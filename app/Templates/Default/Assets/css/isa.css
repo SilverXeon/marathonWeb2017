@@ -1,0 +1,94 @@
+body{
+    font-size: 10px;
+}
+
+.title{
+    font-size: 3rem;
+    color :#ebce7b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title{
+    margin-left: 5%;
+}
+.trait{
+    height: 2px;
+    background-color: #182735;
+    margin-right: 5%;
+    margin-left: 95%;
+}
+.section{
+    position: relative;
+}
+
+.catego{
+    font-size: 1.8rem;
+    color: #ebce7b;
+    text-transform: uppercase;
+    margin: 5% 5%;
+    width: 90%;
+    height: 25%;
+    padding : 7% 7%;
+    
+    border : solid #182735 2px;
+    border-radius: 20px;   
+}
+
+/*.textarea{
+    display : table-row;
+}*/
+.align{
+    vertical-align: top;
+    width : 100%;
+    max-width: 100%;
+    min-width: 100%;
+
+}
+#title{
+    margin : 2% 2%;
+    height: 25px;
+    width: 100%;
+}
+
+.textarea textarea{
+    width: 100%;
+    height: auto;
+}
+.hist{
+    margin : 2% 2%;
+    width : 100%;
+    height: 25px;    
+}
+
+.part{
+    color:#182735;
+    text-align: center;
+    padding: 2% 2%;
+    padding-bottom: 5%;
+}
+
+.btn{
+    background-color:#ebce7b; 
+    color : white;
+    border-radius:16px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: #182735;
+}
+
+#submit{
+    width: 100%;
+}
+
+.part:hover{
+    text-decoration: none;
+}
+
+.hist{
+    clear: both;
+}
